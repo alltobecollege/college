@@ -21,6 +21,12 @@ Demo 3：[https://www.018m.com/](https://www.018m.com/ "https://www.018m.com/")
 - 修复其他Bug
 
 
+#### 1.2 - 2023年12月30日
+
+- 搜狐访客IP失效，替换“https://api.ipify.org/?format=json”
+- 修复其他Bug
+
+
 
 #### 1.1 - 2021年7月21日
 
