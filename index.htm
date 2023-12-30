@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
  <head> 
-  <title>两天个人引导页</title> 
-  <meta name="description" content="那些暗潮汹涌的 见不得人的 无法诉之于口的才是我真正的生活|关键词：Suinian,Nianbroken" /> 
+  <title>两天の个人引导页</title> 
+  <meta name="description" content="那些暗潮汹涌的 见不得人的 无法诉之于口的才是我真正的生活。" /> 
+  <meta name="Keywords" content="两天,宇间草,开源代码,代码分享">
   <meta charset="utf-8" /> 
   <meta http-equiv="content-language" content="zh-cn" /> 
   <link rel="shortcut icon" href="images/favicon.ico" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> 
+
   <link rel="stylesheet" href="assets/css/main.css" /> 
   <noscript> 
    <link rel="stylesheet" href="assets/css/noscript.css" /> 
   </noscript>
+   <!--图片弹窗-->
+   <link href=".about/pirobox/css_pirobox/style_1/style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href=".about/pirobox/css/css.css"/>
+        <link rel="stylesheet" type="text/css" href=".about/pirobox/content/css/default.css"/>
+        <link rel="stylesheet" type="text/css" href=".about/pirobox/css/sansation/stylesheet.css"/>
+        <script type="text/javascript" src="about/pirobox/js/jquery.min.js"></script>
+        <script type="text/javascript" src="about/pirobox/js/jquery-ui-1.8.2.custom.min.js"></script>
+        <script type="text/javascript" src="about/pirobox/js/pirobox_extended.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $().piroBox_ext({
+                    piro_speed: 700,
+                    bg_alpha: 0.5,
+                    piro_scroll: true // pirobox always positioned at the center of the page
+                });
+            });
+        </script>
  </head> 
  <body class="is-preload"> 
   <!-- Wrapper --> 
@@ -22,7 +41,7 @@
     </div> 
     <div class="content"> 
      <div class="inner"> 
-      <h1>两天个人引导页</h1> 
+      <h1>两天の个人引导页</h1> 
       <p>她只是途经我留下了星火&nbsp;而我却任凭她焚烧了我整个荒原</p>
      </div> 
     </div> 
@@ -33,7 +52,11 @@
       <li> <a target="_blank" href="https://2days.org/videos/film/">热门影视</a></li> 
       <li> <a target="_blank" href="https://2days.org/ears-to-world/">聆听世界</a></li>
       <li> <a target="_blank" href="https://www.018m.com/fireworks">烟花绽放</a></li>
-	    <li> <a target="_blank" href="https://www.018m.com/soft.html">软件学习</a></li>
+	  <li> <a target="_blank" href="https://www.018m.com/soft.html">软件学习</a></li>
+	  <li> <a target="_blank" href="https://www.018m.com/dragon/">召唤神龙</a></li>
+	  <li> <a target="_blank" href="https://www.018m.com/about/soft/">常用软件</a></li>
+	  <li> <a target="_blank" href="https://www.018m.com/about/">有关于我</a></li>
+	  <li> <a target="_blank" href="https://www.018m.com/about/hacker.html">黑客帝国</a></li>
       <!--<li><a href="#elements">Elements</a></li>--> 
      </ul> 
     </nav> 
@@ -41,16 +64,6 @@
    <!-- Footer --> 
    <footer id="footer"> 
     <p class="copyright">您的IP：<?php echo $ip_address; ?></p> 
-	<p><p>您的IP地址是: <span id="ip"></span></p>
-	<script>
-		// 使用免费的ipify API获取访客的IP地址
-		fetch('https://api.ipify.org/?format=json')
-			.then(response => response.json())
-			.then(data => {
-				document.getElementById('ip').textContent = data.ip;
-			})
-			.catch(error => console.error(error));
-	</script></p>
     <p class="copyright"><script>
 		var mydate = new Date();
 		document.writeln("Copyright&nbsp;&copy;&nbsp;2021 - "+mydate.getFullYear()+'&nbsp;@两天<br />All&nbsp;Rights&nbsp;Reserved');</script></p> 
@@ -60,7 +73,7 @@
 $ip_address = $_SERVER['REMOTE_ADDR'];
 ?>
 </p>
-<p class="copyright"> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=312379857&amp;site=qq&amp;menu=yes"> <img src="images\svg\qq.svg" width="30" alt="QQ" title="QQ" />&nbsp;&nbsp;</a> <a target="_blank" href="mailto:suinian666@gmail.com"> <img src="images\svg\mail.svg" width="30" alt="Mail" title="Mail" />&nbsp;&nbsp;</a> <a target="_blank" href="/money_receiving_QR_code"> <img src="images\svg\money_receiving_QR_code.svg" width="30" alt="给我打钱" title="给我打钱" />&nbsp;&nbsp;</a> <a target="_blank" href="https://github.com/nianbroken"> <img src="images\svg\github.svg" width="30" alt="Github" title="Github" />&nbsp;&nbsp;</a> <a target="_blank" href="https://gitee.com/nianbroken"> <img src="images\svg\gitee.svg" width="30" alt="Gitee" title="Gitee" />&nbsp;&nbsp;</a> <a target="_blank" href="http://www.coolapk.com/u/1315644"> <img src="images\svg\coolapk.svg" width="30" alt="Coolapk" title="Coolapk" /></a> </p> 
+<p class="copyright"> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=312379857&amp;site=qq&amp;menu=yes"> <img src="images\svg\qq.svg" width="30" alt="QQ" title="QQ" />&nbsp;&nbsp;</a> <a target="_blank" href="mailto:312379857@qq.com"> <img src="images\svg\mail.svg" width="30" alt="Mail" title="Mail" />&nbsp;&nbsp;</a> <a class="pirobox" target="_blank" href="https://www.018m.com/images/rmb.png"> <img src="images\svg\money_receiving_QR_code.svg" width="30" alt="给我打钱" title="给我打钱" />&nbsp;&nbsp;</a> <a target="_blank" href="https://github.com/nianbroken"> <img src="images\svg\github.svg" width="30" alt="Github" title="Github" />&nbsp;&nbsp;</a> <a target="_blank" href="https://gitee.com/nianbroken"> <img src="images\svg\gitee.svg" width="30" alt="Gitee" title="Gitee" />&nbsp;&nbsp;</a> <a target="_blank" href="http://www.coolapk.com/u/1315644"> <img src="images\svg\coolapk.svg" width="30" alt="Coolapk" title="Coolapk" /></a> </p> 
    </footer> 
   </div> 
   <canvas id="sakura" style="z-index: 2;
@@ -1169,5 +1182,7 @@ window.addEventListener('load', function(e) {
     w['r'+r] = w['r'+r] || w['webkitR'+r] || w['mozR'+r] || w['msR'+r] || w['oR'+r] || function(c){ w.setTimeout(c, 1000 / 60); };
 })(window, 'equestAnimationFrame');
 </script>  
+
+
  </body>
 </html>
