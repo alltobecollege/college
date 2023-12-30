@@ -12,6 +12,15 @@ Demo 3：[https://www.018m.com/](https://www.018m.com/ "https://www.018m.com/")
 
 ### 更新日志：
 
+
+
+#### 1.3 - 2023年12月30日
+
+- 搜狐访客IP失效，替换“https://api.ipify.org/?format=json”
+- 增加pirobox图片弹窗显示，然因未知bug暂未生效。
+- 修复其他Bug
+
+
 #### 1.2 - 2022年1月30日
 
 - 更正错别字“途径”→“途经”（她只是**途经**我留下了星火 而我却任凭它焚烧了我整个荒原）
@@ -19,13 +28,6 @@ Demo 3：[https://www.018m.com/](https://www.018m.com/ "https://www.018m.com/")
 - 新增版权信息的年份支持自动更新
 - 底部新增一条文案
 - 修复其他Bug
-
-
-#### 1.2 - 2023年12月30日
-
-- 搜狐访客IP失效，替换“https://api.ipify.org/?format=json”
-- 修复其他Bug
-
 
 
 #### 1.1 - 2021年7月21日
